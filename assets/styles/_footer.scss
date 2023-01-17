@@ -1,0 +1,8 @@
+@use "_commons" as c;
+
+#footer-global{
+    grid-area: footer;
+    margin-top: 20px;
+    background-color: map-get(c.$colores, "footer" );
+    text-align: center;
+}
