@@ -1,0 +1,5 @@
+@use "_commons" as c;
+
+.bg-color-navbar{
+    background-color: map-get(c.$colores, "cabecera" );
+}

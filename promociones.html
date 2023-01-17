@@ -1,74 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Distressed&display=swap" rel="stylesheet">
-    <title>Promociones</title>
-</head>
-<body>
-    <header>
-        <div class="contenedor-inicial">
-          <a href="#"> <img src="./assets/img/logo_hospedaje.jpg" alt="logo-hospedaje" class="logo"> </a>
-          <h1 class="title_principal">Hotel Palmeras</h1>
-        </div>
-        <nav>
-          <ul class="list">
-            <li> <a class="ancla" href="index.html" target="_blank">Inicio </a> </li>
-            <li> <a class="ancla"  href="habitaciones.html" target="_blank">Habitaciones</a> </li>
-            <li> <a class="ancla"  href="promociones.html" target="_blank">Promociones</a> </li>
-            <li> <a class="ancla"  href="ubicacion.html" target="_self"> Ubicacion </a> </li>
-            <li> <a class="ancla" href="contacto.html" target="_blank"> Contacto </a> </li>
-           
-          </ul>
-        </nav>
-      </header>
-      <div class="conteiner-principal">
 
-        <div class="promos">
-    
-            <table border="1">
-        
-              <tr>
-                  <th colspan=3> Estas son nuestras promociones vigentes</th>
-              </tr>
-              <tr>
-                <th>Nombre</th>
-                <th>Descripción</th>
-                <th>Precio</th>
-              </tr>
-              <tr>
-                  <td>Habitaciones Matrimonial</td>
-                  <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa illo tenetur maxime optio quis culpa repellat ut perferendis, commodi soluta dolores dolorum tempora, earum minima ratione, quia nobis minus.</td>
-                  <td>S/80</td>
-              </tr>
-              <tr>
-                  <td>Habitaciones VIP</td>
-                  <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia magnam repudiandae, itaque eaque ad quam expedita, atque distinctio harum consectetur voluptate, rem veritatis voluptatum perspiciatis iste aliquam sunt enim ipsum.</td>
-                  <td>S/120</td>
-              </tr>
-        
-              <tr>
-                  <td>Habitaciones Dobles</td>
-                  <td>Habitación rodeada de hermosos jardines situado en el primer nivel, cuenta con todo el confort y calidez para disfrutar de un día de descanso en familia. Los huéspedes tienen acceso directo a las áreas al aire libre del jardín privado, sala de estar y hamacas.</td>
-                  <td>S/150</td>
-              </tr>
-        
-              <tr>
-                <td>Hab. VIP</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora. Laboriosam distinctio ab illo? Eveniet voluptatibus quo earum facere? Pariatur iure cupiditate corrupti magni, natus nihil reiciendis enim blanditiis sequi.</td>
-                <td>S/180</td>
-              </tr>
-        
-        
-            </table>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/styles/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Distressed&display=swap" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rowdies&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  
+    <link rel="shortcut icon" href="assets/img/logo_hospedaje.ico" type="image/x-icon">
+  <title>Promociones</title>
+</head>
+
+<body>
+
+  <div id="contenedor-global">
+    <header id="cabecera-global">
+      <nav class="navbar navbar-expand-lg bg-color-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo_hospedaje.jpg" alt="logo-hospedaje" class="logo" />
+            <h1 class="title_principal">HOSPEDAJE "PALRMERAS BEACH"</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-info-emphasis link-light fw-bold" aria-current="page"
+                  href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info-emphasis link-light fw-bold" href="habitaciones.html">HABITACIONES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info-emphasis link-light fw-bold" href="promociones.html">PROMOCIONES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info-emphasis link-light fw-bold" href="ubicacion.html">UBICACIÓN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info-emphasis link-light fw-bold" href="contacto.html">CONTACTO</a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="contenido-principal">
+
+      <h2>¡Estas son nuestras pomociones que tenemos para ti!</h2>
+      <div class="p-5">
+        <table class="table table-success table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Descripcion</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Habitación Matrimonial</td>
+              <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, minus libero, eligendi molestiae odit temporibus explicabo et omnis atque neque optio voluptatibus aperiam maxime odio minima hic eos. Eos, nulla!</td>
+              <td>S/80</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Habitacion VIP</td>
+              <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ipsam doloremque ea nisi, iure labore nulla alias id debitis laboriosam voluptatum voluptatem assumenda aperiam quod corporis suscipit odio laudantium deleniti?</td>
+              <td>S/120</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Habitacion Doble</td>
+              <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ipsam doloremque ea nisi, iure labore nulla alias id debitis laboriosam voluptatum voluptatem assumenda aperiam quod corporis suscipit odio laudantium deleniti?</td>
+              <td>S/150</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Habitación con Temática</td>
+              <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ipsam doloremque ea nisi, iure labore nulla alias id debitis laboriosam voluptatum voluptatem assumenda aperiam quod corporis suscipit odio laudantium deleniti?</td>
+              <td>S/170</td>
+            </tr>
+  
+          </tbody>
+        </table>
       </div>
-    <footer>
-      <p>&copy Creado por Vladimir Balcazar Carmen - Todos los derechos reservados</p>
-    </footer>
+
+
+    </div>
+
+    <div id="footer-global">
+      <p>
+        &copy Creado por Vladimir Balcazar Carmen - Todos los derechos
+        reservados
+      </p>
+    </div>
+  </div>
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+  crossorigin="anonymous"></script>
+
 </body>
+
 </html>
